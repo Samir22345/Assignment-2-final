@@ -70,14 +70,8 @@
     .fill-up{
         flex-direction: column;
     }
-
-    .fill-up .offer img{
-        width: 100%;
-    }
-
     .fill-up .offer .Seventy-offer{
-        left: 225px;
-        bottom: 40px;
+        margin-left: 200px
     }
 }
 

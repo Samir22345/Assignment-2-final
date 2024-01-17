@@ -479,59 +479,72 @@ hr {
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    
+}
+.fill-up .form form .input .name{
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding-left: 10px;
 }
+.fill-up .form form .input .email{
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding-left: 10px;
+} 
 
 .fill-up .form form button {
     width: 50%;
-    height: 50px;
+    height: 40px;
     border-radius: 8px;
     background: #FF5400;
+    border: none;
 }
 
-.fill-up .offer {
-    position: relative;
-}
-
-.fill-up .offer img {
-    width: 672px;
-    height: 355px;
-
-}
-
-.fill-up .offer .Seventy-offer {
+.fill-up .offer{
+    
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 16px;
-    background: #FF5400;
-    width: 50%;
-    height: 80px;
-    text-align: center;
-    padding: 25px auto;
-    position: absolute;
-
-    transform: rotate(-19.628deg);
-
-    bottom: 54px;
-    left: 337px;
+    width: 100%;
+    height: 368px;
+    
 }
+.fill-up .offer .seventy-offer{
+    
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+max-width: 220px;
+margin-top: 275px;
+margin-left: 610px;
+} 
 
-.fill-up .offer .Seventy-offer h6 {
+.fill-up .offer .seventy-offer h6 {
     padding-top: 5px;
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
+    background-size: 100px;
+    
 }
 
-.fill-up .offer .Seventy-offer h5 {
+.fill-up .offer .seventy-offer h5 {
     color: #FFF;
     font-size: 25px;
     font-weight: 800;
+    text-align: center;
+    
 }
 /* end-fillup-section */
 /* end-main-section */
 /* start-footer-section */
 footer {
-
+    max-width: 100%;
     background: rgba(19, 19, 24, 0.05);
 
 }
