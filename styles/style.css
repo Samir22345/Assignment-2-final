@@ -8,6 +8,7 @@ body {
     font-family: 'Mulish', sans-serif;
     max-width: 100%;
 }
+
 /* start-header-section */
 header {
     max-width: 80%;
@@ -51,6 +52,7 @@ header nav .nav-container .nav-component a {
 header nav .nav-container .nav-component a span {
     color: #FF5400;
 }
+
 /* end-header-section */
 
 /* srart-main-section */
@@ -442,6 +444,7 @@ main .banner-container .banner-form button .button-name {
     background-size: cover;
 
 }
+
 /* end-popularity-section */
 /* start-fill-up-section */
 
@@ -479,20 +482,22 @@ hr {
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
+
 }
-.fill-up .form form .input .name{
+
+.fill-up .form form .input .name {
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
     border: none;
     padding-left: 10px;
 }
-.fill-up .form form .input .email{
+
+.fill-up .form form .input .email {
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
     border: none;
     padding-left: 10px;
-} 
+}
 
 .fill-up .form form button {
     width: 50%;
@@ -502,26 +507,24 @@ hr {
     border: none;
 }
 
-.fill-up .offer{
-    
-    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    width: 100%;
-    height: 368px;
-    
+.fill-up .offer {
+    position: relative;
 }
-.fill-up .offer .seventy-offer{
-    
-transform: rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
-max-width: 220px;
-margin-top: 275px;
-margin-left: 610px;
-} 
+
+.fill-up .offer img {
+    height: 350px;
+}
+
+.fill-up .offer .seventy-offer {
+    position: absolute;
+    max-width: 220px;
+    bottom: 33px;
+    left: 365px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+
+}
 
 .fill-up .offer .seventy-offer h6 {
     padding-top: 5px;
@@ -530,7 +533,7 @@ margin-left: 610px;
     font-weight: 400;
     text-align: center;
     background-size: 100px;
-    
+
 }
 
 .fill-up .offer .seventy-offer h5 {
@@ -538,8 +541,9 @@ margin-left: 610px;
     font-size: 25px;
     font-weight: 800;
     text-align: center;
-    
+
 }
+
 /* end-fillup-section */
 /* end-main-section */
 /* start-footer-section */
@@ -599,4 +603,5 @@ footer .footer-container .main-footer span {
     padding-top: 50px;
     padding-bottom: 110px;
 }
+
 /* end-footer-section */
